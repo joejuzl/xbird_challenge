@@ -1,0 +1,22 @@
+version: '3.1'
+
+services:
+    app:
+        image: xbird_app
+        ports:
+            - '8081:8081'
+        depends_on:
+          - db
+    db:
+        image: postgres
+        ports:
+            - '5433:5432'
+        environment:
+            POSTGRES_DB: xbird
+            POSTGRES_USER: xbird
+            POSTGRES_PASSWORD: xbird
+
+    adminer:
+        image: adminer
+        ports:
+            - '8088:8080'

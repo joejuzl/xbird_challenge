@@ -1,0 +1,8 @@
+databases:
+    postgres:
+        driver: postgres
+        host: localhost
+        port: 5433
+        database: xbird
+        user: xbird
+        password: xbird

@@ -1,0 +1,7 @@
+databases:
+    postgres:
+        driver: postgres
+        host: db
+        database: xbird
+        user: xbird
+        password: xbird

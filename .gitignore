@@ -1,0 +1,5 @@
+.idea/
+xbird/
+
+__pycache__/
+*$py.class
